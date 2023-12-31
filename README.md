@@ -1,4 +1,5 @@
 # Enumerator <br>
+### A Customized Virtual Machine for OSINT
 The Enumerator is a custom-created virtual machine (VM) managed on Kali Linux, tailored for Open-Source Intelligence (OSINT) operations on a targeted website. It features a curated set of tools pre-installed on Kali Linux, including specialized Firefox extensions and other online tools, to facilitate efficient information gathering. Additionally, the VM is equipped with extra tools that have been installed to augment its capabilities. This comprehensive approach, combining both local and additional tools, enhances the Enumerator's effectiveness in conducting thorough website reconnaissance during OSINT activities.
 
 ## Tools <br>
@@ -11,6 +12,9 @@ Blackbird is a tool designed for information gathering and reconnaissance. It co
 * IP addresses of the target. <br>
 * Possible vulnerabilities based on the collected data. <br>
 
+**Usage Example:**
+`python blackbird.py -u <target username>`
+
 **Guide Link:** [Blackbird](https://github.com/p1ngul1n0/blackbird) <br>
 
 ### Metagoofil <br>
@@ -20,6 +24,9 @@ Metagoofil is a metadata gathering tool that extracts valuable information from 
 **Information Gathered:** <br>
 * Metadata from documents, including author names, software used, and timestamps. <br>
 * Document-related information, such as file names and paths. <br>
+
+**Usage Example:**
+`metagoofil -d <target domain> -t doc,pdf -l 200 -n 50 -o <path where results to be stored> -f <file name with .html where results to be stored>`
 
 **Guide Link:** [Metagoofil](https://www.kali.org/tools/metagoofil/) <br>
 
@@ -32,6 +39,9 @@ WHOIS Lookup is a tool used to query domain registration databases to obtain inf
 * Registration and expiration dates. <br>
 * Name server information. <br>
 * Contact details of the domain owner. <br>
+
+**Usage Example:**
+`whois <target domain>`, `whois <target IP>`
 
 **Guide Link:** [WHOIS Lookup](https://www.geeksforgeeks.org/how-to-use-the-whois-command-on-ubuntu-linux) <br>
 
@@ -81,6 +91,9 @@ The Harvester is a reconnaissance tool used for gathering information about emai
 * Subdomains of the target domain. <br>
 * Hostnames associated with the target. <br>
 
+**Usage Example:**
+`theHarvester -d <target domain> -l 300 -b all`
+
 **How to Access:** <br>
 The Harvester is pre-installed in Kali Linux. You can access it from the terminal by typing: theharvester. <br>
 
@@ -93,6 +106,9 @@ Nmap is a powerful open-source tool for network exploration and security auditin
 * Services running on those ports. <br>
 * Version information about the services. <br>
 * Operating system detection. <br>
+
+**Usage Example:**
+`nmap <target domain>`, `nmap <target IP>`
 
 **How to Access:** <br>
 Nmap is also pre-installed in Kali Linux. You can access it from the terminal using the nmap command, followed by the target IP or hostname. For example: nmap target.com. <br>
