@@ -102,3 +102,5 @@ eg. david baker exeloncorp.com <br>
 
 **Guide Link:** [Skymem](https://www.skymem.info/) <br>
 
+# Disclaimer <br>
+This tool is intended for educational purposes and legal use only. The authors and contributors are not responsible for any misuse, damage, or legal consequences caused by the use of this tool. Please use responsibly. 
