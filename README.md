@@ -3,7 +3,8 @@ The Enumerator is a custom-created virtual machine (VM) managed on Kali Linux, t
 
 ## Tools <br>
 ### Blackbird <br>
-**Description:** Blackbird is a tool designed for information gathering and reconnaissance. It collects data related to a target website, focusing on extracting information about its subdomains, IP addresses, and possible vulnerabilities. <br>
+**Description:** <br>
+Blackbird is a tool designed for information gathering and reconnaissance. It collects data related to a target website, focusing on extracting information about its subdomains, IP addresses, and possible vulnerabilities. <br>
 
 **Information Gathered:** <br>
 * Subdomains associated with the target domain. <br>
@@ -13,7 +14,8 @@ The Enumerator is a custom-created virtual machine (VM) managed on Kali Linux, t
 **Guide Link:** [Blackbird](https://github.com/p1ngul1n0/blackbird) <br>
 
 ### Metagoofil <br>
-**Description:** Metagoofil is a metadata gathering tool that extracts valuable information from publicly available documents, such as PDFs, Word documents, and presentations. It helps in revealing sensitive information that might be inadvertently disclosed in the document metadata. <br>
+**Description:** <br>
+Metagoofil is a metadata gathering tool that extracts valuable information from publicly available documents, such as PDFs, Word documents, and presentations. It helps in revealing sensitive information that might be inadvertently disclosed in the document metadata. <br>
 
 **Information Gathered:** <br>
 * Metadata from documents, including author names, software used, and timestamps. <br>
@@ -22,7 +24,8 @@ The Enumerator is a custom-created virtual machine (VM) managed on Kali Linux, t
 **Guide Link:** [Metagoofil](https://www.kali.org/tools/metagoofil/) <br>
 
 ### WHOIS Lookup <br>
-**Description:** WHOIS Lookup is a tool used to query domain registration databases to obtain information about the ownership, registration date, and contact details of a domain name. <br>
+**Description:** <br>
+WHOIS Lookup is a tool used to query domain registration databases to obtain information about the ownership, registration date, and contact details of a domain name. <br>
 
 **Information Gathered:** <br>
 * Domain ownership details (registrant name, organization, etc.). <br>
@@ -34,7 +37,8 @@ The Enumerator is a custom-created virtual machine (VM) managed on Kali Linux, t
 
 ## Extensions <br>
 ### Wappalyzer - Technology Profiler <br>
-**Description:** Wappalyzer is a technology profiler that identifies the technologies used by a website. It detects content management systems, web frameworks, server software, and more, providing insights into the technology stack employed by the target site. <br>
+**Description:** <br>
+Wappalyzer is a technology profiler that identifies the technologies used by a website. It detects content management systems, web frameworks, server software, and more, providing insights into the technology stack employed by the target site. <br>
 
 **Information Gathered:** <br>
 * Content Management System (CMS) being used. <br>
@@ -45,7 +49,8 @@ The Enumerator is a custom-created virtual machine (VM) managed on Kali Linux, t
 Wappalyzer can be added to Firefox as an extension. You can find it on the official Firefox Add-ons website. Simply click on "Add to Firefox" to install the extension. <br>
 
 ### Shodan <br>
-**Description:** Shodan is a search engine for internet-connected devices. It allows users to discover and explore devices connected to the internet, including servers, routers, webcams, and more. Shodan provides information about open ports, services running on those ports, and sometimes even specific vulnerabilities. It's widely used for both security research and reconnaissance. <br>
+**Description:** <br>
+Shodan is a search engine for internet-connected devices. It allows users to discover and explore devices connected to the internet, including servers, routers, webcams, and more. Shodan provides information about open ports, services running on those ports, and sometimes even specific vulnerabilities. It's widely used for both security research and reconnaissance. <br>
 
 **Information Gathered:** <br>
 * Open ports and services on a target server. <br>
@@ -56,7 +61,8 @@ Wappalyzer can be added to Firefox as an extension. You can find it on the offic
 Shodan provides a Firefox extension that can be added from the Mozilla Add-ons website. Click on "Add to Firefox" to install the Shodan extension. <br>
 
 ### Link Gopher <br>
-**Description:** Link Gopher is a Firefox extension that extracts and lists all the links (URLs) on a webpage. It simplifies the process of collecting and analyzing the links present on a website. <br>
+**Description:** <br>
+Link Gopher is a Firefox extension that extracts and lists all the links (URLs) on a webpage. It simplifies the process of collecting and analyzing the links present on a website. <br>
 
 **Information Gathered:** <br>
 * List of all links on a webpage. <br>
@@ -67,7 +73,8 @@ Link Gopher can be added to Firefox through the Mozilla Add-ons website. Click o
 
 ## Kali Linux Built-in Tools <br>
 ### The Harvester <br>
-**Description:** The Harvester is a reconnaissance tool used for gathering information about email addresses, subdomains, and other related information regarding a target. It collects data from various public sources, including search engines, PGP key servers, and Shodan. The Harvester is particularly useful for information gathering during the initial phases of penetration testing or ethical hacking. <br>
+**Description:** <br>
+The Harvester is a reconnaissance tool used for gathering information about email addresses, subdomains, and other related information regarding a target. It collects data from various public sources, including search engines, PGP key servers, and Shodan. The Harvester is particularly useful for information gathering during the initial phases of penetration testing or ethical hacking. <br>
 
 **Information Gathered:** <br>
 * Email addresses associated with the target domain. <br>
@@ -78,7 +85,8 @@ Link Gopher can be added to Firefox through the Mozilla Add-ons website. Click o
 The Harvester is pre-installed in Kali Linux. You can access it from the terminal by typing: theharvester. <br>
 
 ### Nmap (Network Mapper) <br>
-**Description:** Nmap is a powerful open-source tool for network exploration and security auditing. It is used to discover hosts and services on a computer network, creating a map of the network's structure. Nmap employs various scanning techniques to gather information about open ports, running services, and the operating systems of target machines. It is widely used by security professionals for network reconnaissance and vulnerability assessment. <br>
+**Description:** <br>
+Nmap is a powerful open-source tool for network exploration and security auditing. It is used to discover hosts and services on a computer network, creating a map of the network's structure. Nmap employs various scanning techniques to gather information about open ports, running services, and the operating systems of target machines. It is widely used by security professionals for network reconnaissance and vulnerability assessment. <br>
 
 **Information Gathered:** <br>
 * Open ports on target systems. <br>
@@ -91,7 +99,8 @@ Nmap is also pre-installed in Kali Linux. You can access it from the terminal us
 
 ## Online Available Tool <br>
 ### Skymem <br>
-**Description:** Skymem is the website which helps you find the email address of any professional, person or company. We collect and organize email addresses from all over the web. <br>
+**Description:** <br>
+Skymem is the website which helps you find the email address of any professional, person or company. We collect and organize email addresses from all over the web. <br>
 
 **How to Search on Skymem:** <br>
 1. Start with a simple search using a domain name: eg. wdc.com or ferguson.com. <br>
@@ -103,4 +112,4 @@ eg. david baker exeloncorp.com <br>
 **Guide Link:** [Skymem](https://www.skymem.info/) <br>
 
 # Disclaimer <br>
-This tool is intended for educational purposes and legal use only. The authors and contributors are not responsible for any misuse, damage, or legal consequences caused by the use of this tool. Please use responsibly. 
+These tools are intended for educational purposes and legal use only. The authors and contributors are not responsible for any misuse, damage, or legal consequences caused by the use of this tool. Please use responsibly. 
