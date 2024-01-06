@@ -8,9 +8,8 @@ The Enumerator is a custom-created virtual machine (VM) managed on Kali Linux, t
 Blackbird is a tool designed for information gathering and reconnaissance. It collects data related to a target website, focusing on extracting information about its subdomains, IP addresses, and possible vulnerabilities. <br>
 
 **Information Gathered:** <br>
-* Subdomains associated with the target domain. <br>
-* IP addresses of the target. <br>
-* Possible vulnerabilities based on the collected data. <br>
+* Search for accounts by username across 153 sites. <br>
+* Find active profiles on various social media sites. <br>
 
 **Usage Example:**
 `python blackbird.py -u <target username>`
