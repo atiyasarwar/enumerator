@@ -44,6 +44,8 @@ WHOIS Lookup is a tool used to query domain registration databases to obtain inf
 
 **Guide Link:** [WHOIS Lookup](https://www.geeksforgeeks.org/how-to-use-the-whois-command-on-ubuntu-linux) <br>
 
+**Online Available:** [WHOIS Lookup](https://www.whois.com/whois/)
+
 ## Extensions <br>
 ### Wappalyzer - Technology Profiler <br>
 **Description:** <br>
